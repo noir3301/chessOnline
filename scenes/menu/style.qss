@@ -1,0 +1,93 @@
+
+
+UI {
+    background-color: #ffffff;
+}
+
+MainBox {
+    background-color: #F5F5F5;
+}
+
+JoinBox, CreateBox {
+    padding-right: 58px;
+}
+
+WarningBox {
+    padding-left: 158px;
+}
+
+RoomsList {
+    font-size: 14px;
+}
+
+Input {
+    border: 1px solid #686868;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    background-color: #F5DEB3;
+    font-size: 15px;
+}
+
+RadioButton, Checkbox {
+    font-size: 13px;
+}
+
+PasteButton {
+    color: #ffffff;
+    background-color: #8B4513;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+ConfirmButton {
+    color: #ffffff;
+    background-color: #8B4513;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+ConfirmButton:hover, PasteButton:hover {
+    background-color: #A0522D;
+}
+
+ConfirmButton:pressed, PasteButton:pressed {
+    background-color: #D2691E;
+}
+
+ConfirmButton:disabled, PasteButton:disabled {
+    background-color: #656565;
+}
+
+Slider::groove:horizontal {
+    background-color: #F5DEB3;
+    border-radius: 5px;
+    height: 18px;
+
+}
+
+Slider::handle:horizontal {
+    background-color: #8B4513;
+    border: 2px solid #8B4513;
+    height: 8px;
+    width: 30px;
+    margin: -2px 0;
+    border-radius: 8px;
+}
+
+LoginLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+IRCLabel {
+    color: #004993;
+}
+
+WarningLabel, IRCLabel {
+    font-size: 13px;
+}
+

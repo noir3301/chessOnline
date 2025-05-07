@@ -1,0 +1,50 @@
+
+
+UI {
+    background-color: #ffffff;
+}
+
+MainBox {
+    background-color: #F5F5F5;
+}
+
+LoginLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+WarningLabel {
+    font-size: 15px;
+}
+
+ReadyButton {
+    color: #ffffff;
+    background-color: #8B4513;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+ReadyButton:hover {
+    background-color: #A0522D;
+}
+
+ReadyButton:pressed {
+    background-color: #D2691E;
+}
+
+ReadyButton:disabled {
+    background-color: #656565;
+}
+
+ChoiceButton {
+    border-radius: 15px;
+}
+
+ChoiceButton:hover {
+    background-color: #e2ffdb;
+}
+
+ChoiceButton:pressed {
+    background-color: #c4ffb7;
+}

@@ -1,0 +1,45 @@
+
+
+UI {
+    background-color: #f7e4be
+}
+
+MainBox {
+    background-color: #fcfaf5;
+    border-radius: 15px;
+    border: 3px solid #5c5c5c;
+}
+
+PushButton {
+    color: #ffffff;
+    background-color: #8B4513;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+PushButton:hover, PasteButton:hover {
+    background-color: #A0522D;
+}
+
+PushButton:pressed, PasteButton:pressed {
+    background-color: #D2691E;
+}
+
+PushButton:disabled, PasteButton:disabled {
+    background-color: #656565;
+}
+
+Input {
+    border: 1px solid #686868;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    background-color: #F5DEB3;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+HintLabel, WarningLabel {
+    font-size: 13px;
+}

@@ -1,0 +1,4 @@
+NicknameLabel {
+    font: 18px "Fira Sans", sans-serif;
+    color: #362d19;
+}
