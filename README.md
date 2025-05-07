@@ -18,11 +18,9 @@ pip install -r chessOnline/requirements.txt
 ## Usage
 
 Run the game with:
-
 `python chessOnline/main.py`
 
 You can also compile an EXE file using Nuitka:
-
 `python -m nuitka --standalone --onefile --no-pyi-file --remove-output --enable-plugin=pyqt6 chessOnline/main.py`
 
 To create a game lobby, you will need a dedicated ip address, or use Radmin VPN.
