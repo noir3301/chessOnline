@@ -9,6 +9,8 @@ Playing against a bot, game timer and the return of the move are not implemented
 ## Installation
 
 Python 3.12.5 is required.
+
+Install requirements with:
 ```
 pip install -r chessOnline/requirements.txt
 ```
